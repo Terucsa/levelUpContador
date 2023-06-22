@@ -1,0 +1,44 @@
+body{
+    background-color: #F8CBC1;
+}
+.tituloContador{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+.numeroContador{
+    border: 2px solid black;
+    width: 11.8rem;
+    height: 5rem;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+.sectionPrincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.botones {
+    margin-top: 20px;
+}
+
+.numeroContador{
+    line-height: 80px;
+}
+.botonStyle{
+    border-radius: 10px;
+    height: 2rem;
+    width: 8rem;
+    color: black;
+    background-color: cornsilk;
+    font-family: 'Permanent Marker', cursive;
+    font-size: large;
+}
+.botonStyle:hover{
+    background-color: #D7B0A7;
+    cursor: pointer;
+    border-color: red;
+}
